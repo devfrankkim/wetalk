@@ -13,6 +13,7 @@
     />
   </head>
   <body>
+    <!-- Top component -->
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:53</span>
@@ -24,7 +25,9 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
-    <header class="headaer">
+
+    <!-- header component-->
+    <header class="header">
       <div class="header__header-column">
         <h1 class="header__title">More</h1>
       </div>
@@ -39,10 +42,89 @@
           <i class="fas fa-play-circle"></i>
         </span>
         <span class="header__icon">
-          <i class="fas fa-cog"></i>
+          <a href="settings.html"><i class="fas fa-cog"></i></a>
         </span>
       </div>
     </header>
+
+    <!-- main  -->
+    <main class="more">
+      <header class="more__header">
+        <div class="friends__friend friend friend--large">
+          <div class="friend__column">
+            <img
+              src="../img/myself.jpeg"
+              alt=""
+              class="friend__avatar g-avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                Frank Kim
+              </span>
+              <span class="friend__status">heyfranksmile@gmail.com</span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__my-profile">
+              <i class="far fa-user-circle fa-5px"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Games, movies, study -->
+        <ul class="more__btn-list">
+          <li class="more__btn">
+            <span class="more__btn-icon">
+              <i class="fas fa-gamepad"></i>
+            </span>
+            <span class="more__btn-title">
+              Games
+            </span>
+          </li>
+          <li class="more__btn">
+            <span class="more__btn-icon"><i class="fas fa-film"></i></span>
+            <span class="more__btn-title">
+              Movies
+            </span>
+          </li>
+          <li class="more__btn">
+            <span class="more__btn-icon"
+              ><i class="fas fa-book-reader"></i
+            ></span>
+            <span class="more__btn-title">
+              Study
+            </span>
+          </li>
+        </ul>
+      </header>
+
+      <!-- Section-suggestions -->
+      <section class="more__suggestions">
+        <h5 class="more__title">Suggestions</h5>
+        <ul class="more__suggestions-list">
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Kakao Story</span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-beer fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Kakao friend</span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-gamepad fa-2x"></i>
+            </span>
+            <span class="suggestion__title">Friends Gem</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- navigation -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
