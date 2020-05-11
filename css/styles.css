@@ -1,0 +1,35 @@
+@import "../css/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mukta:wght@400;500;700&family=Open+Sans+Condensed:wght@300&display=swap");
+@import "../css/status-bar.css";
+@import "../css/header.css";
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #3d3c3c;
+  font-family: "Mukta", sans-serif;
+}
+
+/* Visited link    */
+/* a:visited {
+  color: black;
+} */
+/* get color from father */
+a {
+  color: inherit;
+}
+
+.fa-lock-open:before {
+  color: white;
+  animation: 4.5s fa-lock-open ease-in-out;
+}
+
+@keyframes fa-lock-open {
+  0% {
+    color: black;
+    opacity: 1;
+  }
+  100% {
+    color: white;
+  }
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mukta:wght@700&family=Open+Sans+Condensed:wght@300&display=swap");
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.header .header__title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+}
+.header .title {
+  display: flex;
+  justify-content: center;
+}
+
+.header .header__icon {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.header__message {
+  margin-left: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__message .title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+}
+.header__message .header__back-btn {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+  user-select: none;
+}
+
+.header__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-left: 1.3rem;
+}
+.header__setting .setting__title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+}
+.header__setting .header__back-btn {
+  color: black;
+  font-size: 1.4rem;
+  user-select: none;
+}
+
+.header__setting .search-icon {
+  font-size: 1.3rem;
+}
