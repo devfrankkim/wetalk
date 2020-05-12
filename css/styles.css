@@ -4,6 +4,8 @@
 @import "../css/header.css";
 @import "../css/nav-bar.css";
 @import "../css/chat.css";
+@import "../css/friend.css";
+@import "../css/friends.css";
 
 * {
   box-sizing: border-box;
@@ -17,12 +19,13 @@ body {
 }
 
 /* Visited link    */
-/* a:visited {
+/* a:visited {  
   color: black;
 } */
 /* get color from father */
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 .fa-lock-open:before {

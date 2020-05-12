@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .header .header__title {
   font-size: 1.6rem;
