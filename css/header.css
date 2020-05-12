@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Mukta:wght@700&family=Open+Sans+Condensed:wght@300&display=swap");
+
 .header {
   align-items: center;
   display: flex;
@@ -7,7 +8,7 @@
   margin-top: 2rem;
 }
 .header .header__title {
-  font-size: 1.6rem;
+  font-size: 30px;
   font-weight: bold;
   font-family: "Mukta", sans-serif;
 }
@@ -17,7 +18,7 @@
 }
 
 .header .header__icon {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-left: 1rem;
   cursor: pointer;
 }
