@@ -1,0 +1,13 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: #f2f2f2;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #f7f7f7;
+  padding: 2rem;
+}
+.nav .nav__list {
+  display: flex;
+  justify-content: space-around;
+}

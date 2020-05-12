@@ -2,10 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Mukta:wght@400;500;700&family=Open+Sans+Condensed:wght@300&display=swap");
 @import "../css/status-bar.css";
 @import "../css/header.css";
+@import "../css/nav-bar.css";
+@import "../css/chat.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: white;
-  padding: 10px 20px;
+  padding: 10px 10px;
   color: #3d3c3c;
   font-family: "Mukta", sans-serif;
 }

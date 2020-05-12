@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 .header .header__title {
   font-size: 1.6rem;
@@ -16,15 +17,15 @@
 }
 
 .header .header__icon {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-left: 1rem;
   cursor: pointer;
 }
 
 .header__message {
-  margin-left: 2.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header__message .title {
@@ -35,16 +36,17 @@
 .header__message .header__back-btn {
   color: black;
   font-size: 1.4rem;
-  font-weight: bold;
   user-select: none;
+  margin-top: 3rem;
+  margin-right: 3.8rem;
 }
 
 .header__setting {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 4rem;
   margin-bottom: 2rem;
-  margin-left: 1.3rem;
 }
 .header__setting .setting__title {
   font-size: 1.6rem;

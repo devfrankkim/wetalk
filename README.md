@@ -22,3 +22,5 @@ color: inherit;
 }
 
 ```
+
+position fixed needs width and height. it needs width! because it's another layer
