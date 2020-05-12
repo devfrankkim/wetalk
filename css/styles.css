@@ -28,6 +28,17 @@ a {
   text-decoration: none;
 }
 
+.fa-comment-dots,
+.fa-paperclip,
+.fas .fa-tools {
+  font-size: 1.4rem;
+}
+.fa-tools:before {
+  font-size: 1.4rem;
+}
+.fa-user.solid {
+  font-size: 1.4rem;
+}
 .fa-lock-open:before {
   color: white;
   animation: 4.5s fa-lock-open ease-in-out;
