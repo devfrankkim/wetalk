@@ -57,18 +57,20 @@
     <!-- main  -->
     <main class="more">
       <header class="more__header">
-        <div class="friends__friend friend friend--large">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img
               src="../img/myself.jpeg"
               alt=""
-              class="friend__avatar g-avatar"
+              class="friend__avatar g-avatar myself"
             />
             <div class="friend__content">
               <span class="friend__name">
                 Frank Kim
               </span>
-              <span class="friend__status">heyfranksmile@gmail.com</span>
+              <span class="friend__status myemail"
+                >heyfranksmile@gmail.com</span
+              >
             </div>
           </div>
           <div class="friend__column">
@@ -82,21 +84,21 @@
         <ul class="more__btn-list">
           <li class="more__btn">
             <span class="more__btn-icon">
-              <i class="fas fa-gamepad"></i>
+              <i class="fas fa-gamepad "></i>
             </span>
             <span class="more__btn-title">
-              Games
+              My Game
             </span>
           </li>
           <li class="more__btn">
-            <span class="more__btn-icon"><i class="fas fa-film"></i></span>
+            <span class="more__btn-icon"><i class="fas fa-film "></i></span>
             <span class="more__btn-title">
-              Movies
+              Movie
             </span>
           </li>
           <li class="more__btn">
             <span class="more__btn-icon"
-              ><i class="fas fa-book-reader"></i
+              ><i class="fas fa-book-reader "></i
             ></span>
             <span class="more__btn-title">
               Study
@@ -111,23 +113,40 @@
         <ul class="more__suggestions-list">
           <li class="more__suggestion suggestion">
             <span class="suggestion__icon">
-              <i class="fas fa-quote-right fa-2x"></i>
+              <i class="fas fa-quote-right fa"></i>
             </span>
-            <span class="suggestion__title">Kakao Story</span>
+            <span class="suggestion__title">Friends Story</span>
           </li>
           <li class="more__suggestion suggestion">
             <span class="suggestion__icon">
-              <i class="fas fa-beer fa-2x"></i>
+              <i class="fas fa-beer fa"></i>
             </span>
-            <span class="suggestion__title">Kakao friend</span>
+            <span class="suggestion__title">Hangouts</span>
           </li>
           <li class="more__suggestion suggestion">
             <span class="suggestion__icon">
-              <i class="fas fa-gamepad fa-2x"></i>
+              <i class="fas fa-gamepad fa"></i>
             </span>
-            <span class="suggestion__title">Friends Gem</span>
+            <span class="suggestion__title">Friends Game</span>
           </li>
         </ul>
+      </section>
+
+      <section class="more__weather">
+        <div class="more__weather weather__container">
+          <h5 class="more__weather weather__title">Weather</h5>
+          <div class="more__weather weather-content">
+            <span>
+              Toronto, ON <br />
+              Monday <br />
+              Sunny
+            </span>
+            <P class="more__weather location">
+              <span><i class="fas fa-cloud-sun weather-icon"></i> </span>
+              19°
+            </P>
+          </div>
+        </div>
       </section>
     </main>
 
