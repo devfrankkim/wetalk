@@ -6,7 +6,7 @@ Key concents I have learned from building this project
 - [x] Position fixed needs width
 - [x] Box sizing: border-box
 - [x] Difference between margin and padding
-
+- [x] to align items center => left: 0; right: 0; margin: 0 auto;
 ```
 position fixed needs width and height. it needs width! because it's another layer
 

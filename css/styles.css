@@ -9,6 +9,7 @@
 @import "../css/add.css";
 @import "../css/more.css";
 @import "../css/settings.css";
+@import "../css/message.css";
 
 * {
   box-sizing: border-box;
