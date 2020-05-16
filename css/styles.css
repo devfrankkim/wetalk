@@ -8,6 +8,7 @@
 @import "../css/friends.css";
 @import "../css/add.css";
 @import "../css/more.css";
+@import "../css/settings.css";
 
 * {
   box-sizing: border-box;

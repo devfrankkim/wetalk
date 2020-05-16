@@ -5,3 +5,8 @@
 .chats__lists .chat {
   margin-bottom: 2.1rem;
 }
+
+.header__message {
+  display: flex;
+  align-content: center;
+}
