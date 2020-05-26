@@ -9,4 +9,64 @@
 .header__message {
   display: flex;
   align-content: center;
+  justify-content: space-around;
+}
+
+.chat__messages {
+  border-top: 1px solid #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.chat__timestamp {
+  background-color: rgb(242, 242, 242);
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0 20px;
+}
+
+.message .message__content {
+  width: 80%;
+}
+
+.incoming-message img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.incoming-message {
+  align-self: flex-start;
+}
+
+.message__bubble {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  padding: 10px 20px;
+}
+.message__author {
+  display: block;
+  line-height: 2rem;
+}
+.message__bubble {
+  display: inline-block;
+}
+
+.sent-message {
+  margin-left: 65%;
 }
