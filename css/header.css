@@ -8,7 +8,7 @@
   margin-top: 2rem;
 }
 .header .header__title {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   font-family: "Mukta", sans-serif;
 }
@@ -18,7 +18,7 @@
 }
 
 .header .header__icon {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-left: 1rem;
   cursor: pointer;
 }
