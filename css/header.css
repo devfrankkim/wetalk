@@ -4,11 +4,11 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-left: 2.8rem;
+  margin-right: 2.8rem;
+  font-size: 1.4rem;
 }
 .header .header__title {
-  font-size: 26px;
   font-weight: bold;
   font-family: "Mukta", sans-serif;
 }
@@ -23,21 +23,11 @@
   cursor: pointer;
 }
 
-.header__message {
+.header .header__header-column {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-}
-
-.header__message .title {
-  font-size: 1.6rem;
-  font-weight: bold;
-  font-family: "Mukta", sans-serif;
-}
-.header__message .header__back-btn {
-  color: black;
-  font-size: 1.4rem;
-  user-select: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .header__setting {
@@ -60,4 +50,11 @@
 
 .header__setting .search-icon {
   font-size: 1.3rem;
+}
+
+.header .header__message-column {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

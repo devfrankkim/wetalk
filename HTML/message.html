@@ -31,21 +31,20 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
-    <header class="header__message">
-      <a href="chat.html" class="header__back-btn">
-        <i class="fas fa-arrow-left"></i>
-      </a>
-      <div class="header__message header">
-        <h1 class="header__message title">Andrea Kim</h1>
-      </div>
-      <div class="header__message header">
-        <span class="header__icon">
-          <i class="fas fa-search "></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </div>
+      <header class="header">
+        <div class="header__message-column">
+          <a href="chat.html"> <i class="fas fa-arrow-left"></i> </a>
+          <div class="message-title">Frank Kim</div>
+        </div>
+        <div class="header__message-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
     </header>
     <main class="chat">
       <ul class="chat__messages">
@@ -54,18 +53,42 @@
           <img src="../img/myself.jpeg" class="g-avatar message__avatar" />
           <div class="message__content">
             <span class="message__author">Frank Kim</span>
-            <span class="message__bubble">
+            <div class="message__bubble">
               Congrats!!! I knew you could do it!!!
-            </span>
+            </div>
           </div>
         </li>
         <li class="sent-message">
           <span class="message__timestamp"></span>
-          <div class="message__bubble">
+          <div class="message__bubble answer">
             Thanks!! man!!!
           </div>
         </li>
       </ul>
+      <nav class="nav-message">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a href="../index.html" class="nav__list-link">
+                <i class="far fa-user"></i>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="chat.html" class="nav__list-link">
+                <i class="far fa-comment-dots"></i>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="news.html" class="nav__list-link">
+                <i class="fas fa-hashtag"></i>
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="more.html" class="nav__list-link">
+                <i class="fas fa-ellipsis-h"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
     </main>
     <div class="chat__write">
       <div class="chat__write-column">
@@ -84,30 +107,7 @@
           ><i class="far fa-calendar-check"></i
         ></span>
       </div>
+ 
     </div>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__list-item">
-          <a href="../index.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="chat.html" class="nav__list-link">
-            <i class="far fa-comment-dots"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="news.html" class="nav__list-link">
-            <i class="fas fa-hashtag"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="more.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
   </body>
 </html>

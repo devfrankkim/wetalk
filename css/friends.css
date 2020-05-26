@@ -1,3 +1,8 @@
+.friends {
+  padding-top: 0;
+  margin-left: 2.8rem;
+  margin-right: 2.8rem;
+}
 .friends .friends__plus {
   margin: 2rem 0;
   padding: 20px 0px;

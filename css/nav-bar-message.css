@@ -1,5 +1,5 @@
-.nav {
-  position: fixed;
+.nav-message {
+  position: absolute;
   width: 100%;
   background-color: rgb(245, 245, 245);
   left: 0px;
@@ -10,15 +10,15 @@
   padding-right: 3rem;
 }
 
-.nav .nav__list {
+.nav-message .nav__list {
   display: flex;
   justify-content: space-around;
 }
-.nav .nav__list-link {
+.nav-message .nav__list-link {
   position: relative;
 }
 
-.nav .nav__msg-count {
+.nav-message .nav__msg-count {
   position: absolute;
   top: -8px;
   right: -25px;

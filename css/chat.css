@@ -1,15 +1,9 @@
 .chat__messages {
-  padding-top: 5%;
-  padding-left: 10%;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .chats__lists .chat {
   margin-bottom: 2.1rem;
-}
-
-.header__message {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
 }
 
 .chat__messages {
@@ -35,12 +29,10 @@
 .message {
   display: flex;
   align-items: center;
-  width: 50%;
-  padding: 0 20px;
 }
 
 .message .message__content {
-  width: 80%;
+  width: 90%;
 }
 
 .incoming-message img {
@@ -50,6 +42,7 @@
 }
 .incoming-message {
   align-self: flex-start;
+  margin-bottom: 1rem;
 }
 
 .message__bubble {
@@ -57,16 +50,19 @@
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
-  padding: 10px 20px;
+  padding: 10px;
+  width: 100%;
 }
 .message__author {
   display: block;
   line-height: 2rem;
 }
-.message__bubble {
-  display: inline-block;
+
+.sent-message .answer {
+  margin-top: 1rem;
+  background-color: rgb(247, 254, 239);
 }
 
 .sent-message {
-  margin-left: 65%;
+  margin-left: auto;
 }

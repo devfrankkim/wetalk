@@ -1,3 +1,7 @@
+.more {
+  margin-left: 2.8rem;
+  margin-right: 2.8rem;
+}
 .more .myself {
   box-shadow: 0px 0px 6px rgb(255, 30, 0);
 }
@@ -8,7 +12,6 @@
   text-align: center;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  margin-left: 1rem;
   opacity: 0.8;
   font-weight: bold;
 }
@@ -18,11 +21,13 @@
   font-size: 1rem;
 }
 .more__btn i {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 .more .more__btn-title {
   margin-top: 1rem;
+  margin-left: 0;
   display: flex;
+  font-size: 13px;
 }
 
 /* suggestions */
@@ -34,7 +39,7 @@
 
 .more__suggestions .more__title,
 .more__weather {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .more__suggestions .more__suggestions-list {
@@ -45,11 +50,11 @@
 .more__suggestions .suggestion {
   margin-top: 0.5rem;
   margin-right: 2rem;
-  margin-left: 1rem;
 }
 .more__suggestions .suggestion__title {
   margin-top: 0.5rem;
   display: flex;
+  font-size: 14px;
 }
 
 .suggestion__icon i {
@@ -79,15 +84,18 @@
   font-weight: bold;
 }
 .more__weather .weather-content {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   display: flex;
-  margin-left: 1rem;
   font-size: 1.2rem;
 }
 
 .more__weather .location,
 .weather-icon {
   margin-top: 1.1rem;
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   margin-left: 1.4rem;
+}
+
+.content__p {
+  font-size: 1.1rem;
 }
