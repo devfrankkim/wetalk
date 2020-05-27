@@ -4,8 +4,7 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-left: 2.8rem;
-  margin-right: 2.8rem;
+  margin: 0 0.3rem;
   font-size: 1.4rem;
 }
 .header .header__title {
@@ -55,6 +54,7 @@
 .header .header__message-column {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }

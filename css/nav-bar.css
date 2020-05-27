@@ -1,13 +1,11 @@
 .nav {
-  position: fixed;
+  position: absolute;
   width: 100%;
   background-color: rgb(245, 245, 245);
-  left: 0px;
-  bottom: 0px;
   border-top: 1px solid #f7f7f7;
-  padding: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 1rem;
+  left: 0;
+  bottom: 0;
 }
 
 .nav .nav__list {

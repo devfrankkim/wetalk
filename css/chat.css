@@ -1,3 +1,7 @@
+.chats {
+  margin: 0 0.3rem;
+  min-height: 80vh;
+}
 .chat__messages {
   padding-left: 1rem;
   padding-right: 1rem;

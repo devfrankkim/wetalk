@@ -1,6 +1,5 @@
 .more {
-  margin-left: 2.8rem;
-  margin-right: 2.8rem;
+  margin: 0 0.3rem;
 }
 .more .myself {
   box-shadow: 0px 0px 6px rgb(255, 30, 0);
@@ -27,7 +26,7 @@
   margin-top: 1rem;
   margin-left: 0;
   display: flex;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* suggestions */
@@ -52,15 +51,15 @@
   margin-right: 2rem;
 }
 .more__suggestions .suggestion__title {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   display: flex;
   font-size: 14px;
 }
 
 .suggestion__icon i {
-  border-radius: 5rem;
+  border-radius: 50%;
   color: rgb(59, 57, 57);
-  padding: 0.8rem;
+  padding: 8px;
   background-color: rgb(247, 235, 235);
   box-shadow: 0px 0px 10px rgb(255, 30, 0);
 }
@@ -86,16 +85,22 @@
 .more__weather .weather-content {
   margin-top: 1.5rem;
   display: flex;
+  justify-content: flex;
+  align-items: center;
   font-size: 1.2rem;
 }
 
 .more__weather .location,
 .weather-icon {
-  margin-top: 1.1rem;
-  font-size: 1.1rem;
-  margin-left: 1.4rem;
+  font-size: 1.3rem;
+  margin-left: auto;
 }
 
 .content__p {
-  font-size: 1.1rem;
+  font-size: 14px;
+}
+
+.fa-user-circle:before {
+  content: "\f2bd";
+  font-size: 1.4rem;
 }
