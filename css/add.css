@@ -1,15 +1,19 @@
+.add .header__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .find .find__header-list {
   display: flex;
-  margin-top: 3rem;
   border-bottom: 1px solid #f7f7f7;
 }
 .find .find__header-btn {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 2rem;
 }
 .find .header-btn__title {
+  font-size: 13px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
@@ -18,14 +22,14 @@
 .fa-address-book,
 .fa-fingerprint,
 .fa-envelope {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .find .find__title {
   margin-top: 1.3rem;
   margin-bottom: 1.5rem;
   opacity: 0.8;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .find__friend.friend {
@@ -45,4 +49,8 @@
   background-color: rgb(245, 39, 39);
   transition: all 0.4s ease-in-out;
   cursor: pointer;
+}
+
+.find .fa-qrcode {
+  font-size: 1.2rem;
 }

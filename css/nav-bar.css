@@ -1,5 +1,5 @@
 .nav {
-  position: absolute;
+  position: fixed;
   width: 100%;
   background-color: rgb(245, 245, 245);
   border-top: 1px solid #f7f7f7;
@@ -21,7 +21,7 @@
   top: -8px;
   right: -25px;
   color: white;
-  background-color: red;
+  background-image: linear-gradient(to bottom, #e52d27, #b31217);
   border-radius: 1rem;
   padding: 1px;
   width: 35px;

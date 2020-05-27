@@ -15,22 +15,23 @@
     <title>Messages</title>
   </head>
   <body class="chats-body">
-    <div class="status-bar">
-      <div>
-        <i class="fas fa-signal"></i>
-        <span>WIND</span>
-        <i class="fas fa-wifi"></i>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div>
+          <i class="fas fa-signal"></i>
+          <span>WIND</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-lock-open"></i>
+          <span class="status-bar__clock">13:53</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="far fa-clock"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-lock-open"></i>
-        <span class="status-bar__clock">13:53</span>
-      </div>
-      <div class="status-bar__column">
-        <i class="far fa-clock"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
-    </div>
       <header class="header">
         <div class="header__message-column">
           <a href="chat.html"> <i class="fas fa-arrow-left"></i> </a>
@@ -45,7 +46,8 @@
           </span>
         </div>
       </header>
-    </header>
+    </div>
+
     <main class="chat-message">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, May 8, 2020</span>
@@ -65,20 +67,20 @@
           </div>
         </li>
         <li class="incoming-message message">
-            <img src="../img/myself.jpeg" class="g-avatar message__avatar" />
-            <div class="message__content">
-              <span class="message__author">Frank Kim</span>
-              <div class="message__bubble">
-                What are your future plans?
-              </div>
+          <img src="../img/myself.jpeg" class="g-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">Frank Kim</span>
+            <div class="message__bubble">
+              What are your future plans?
             </div>
-          </li>
-          <li class="sent-message">
-            <span class="message__timestamp"></span>
-            <div class="message__bubble answer">
-              Making more projects while staying happy!!
-            </div>
-          </li>
+          </div>
+        </li>
+        <li class="sent-message">
+          <span class="message__timestamp"></span>
+          <div class="message__bubble answer">
+            Making more projects while staying happy!!
+          </div>
+        </li>
       </ul>
     </main>
     <div class="chat__write">
@@ -98,31 +100,30 @@
           ><i class="far fa-calendar-check"></i
         ></span>
       </div>
- 
     </div>
     <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="../index.html" class="nav__list-link">
-              <i class="far fa-user"></i>
-            </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="chat.html" class="nav__list-link">
-              <i class="far fa-comment-dots"></i>
-            </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="news.html" class="nav__list-link">
-              <i class="fas fa-hashtag"></i>
-            </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="more.html" class="nav__list-link">
-              <i class="fas fa-ellipsis-h"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="../index.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="chat.html" class="nav__list-link">
+            <i class="far fa-comment-dots"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="news.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

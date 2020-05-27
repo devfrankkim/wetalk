@@ -27,7 +27,7 @@
 }
 
 .friend__content .friend__name {
-  font-weight: bold;
+  font-weight: 500;
   display: block;
   margin-bottom: 0.3rem;
   font-size: 1rem;
