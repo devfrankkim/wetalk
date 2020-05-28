@@ -30,56 +30,6 @@
   font-weight: 700;
 }
 
-.message {
-  display: flex;
-  align-items: center;
-}
-
-.message .message__content {
-  width: 90%;
-}
-
-.incoming-message img {
-  width: 30px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-.incoming-message {
-  align-self: flex-start;
-  margin-bottom: 1rem;
-}
-
-.message__bubble {
-  color: white;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
-    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
-  padding: 10px;
-  width: 100%;
-}
-.message__author {
-  display: block;
-  line-height: 2rem;
-}
-
-.sent-message .answer {
-  margin-top: 1rem;
-  background-color: rgb(247, 254, 239);
-}
-
-.sent-message {
-  margin-left: auto;
-}
-
-.incoming-message .message__bubble {
-  border-top-left-radius: 0px;
-  /* background-image: linear-gradient(to left, #da22ff, #9733ee); */
-  background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
-}
-
-.sent-message .message__bubble {
-  border-top-right-radius: 0px;
-  /* background-image: linear-gradient(to left, #02aab0, #00cdac); */
-  background-image: linear-gradient(to right, #e52d27, #b31217);
+.chat .fa-comment-dots {
+  font-size: 1.4rem;
 }

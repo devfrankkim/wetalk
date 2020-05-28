@@ -9,12 +9,13 @@ Key concents I have learned from building this project
 - [x] to align items center => left: 0; right: 0; margin: 0 auto;
 - [x] Gradient is background-image
 - [x] "~"=> check younger siblings because CSS reads top to bottom ex) firstDiv:focus ~ .nextDivs
+- [x] animation: forwards => stick to the changed values. Not coming back to the orgin values. 
 ```
 position fixed needs width and height. it needs width! because it's another layer
 
 ```
 
-```
+``` 
 *{box-size: border-box}
 Yo, don't make my box-size grow!
 Be happy with what you have! even when I add padding!!

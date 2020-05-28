@@ -18,6 +18,20 @@
 
 .nav .nav__msg-count {
   position: absolute;
+  top: -2px;
+  right: -18px;
+  color: white;
+  background-image: linear-gradient(to bottom, #e52d27, #b31217);
+  border-radius: 1rem;
+  padding: 1px;
+  width: 23px;
+  height: 13px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.chat .nav__msg-count {
+  position: absolute;
   top: -8px;
   right: -25px;
   color: white;
@@ -26,7 +40,24 @@
   padding: 1px;
   width: 35px;
   height: 15px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  font-size: 15px;
+}
+
+.nav .count-icon .far {
+  font-weight: 600;
+}
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: showNavBar 0.5s ease-out forwards;
+  animation-delay: 0.2s;
 }

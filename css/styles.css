@@ -22,17 +22,11 @@ body {
   font-family: "Mukta", sans-serif;
 }
 
-/* Visited link    */
-/* a:visited {  
-  color: black;
-} */
-/* get color from father */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-.fa-comment-dots,
 .fa-paperclip,
 .fas .fa-tools {
   font-size: 1.4rem;
@@ -57,4 +51,17 @@ a {
   100% {
     color: white;
   }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    transform: none;
+  }
+}
+main {
+  animation: fadeIn 0.5s;
 }

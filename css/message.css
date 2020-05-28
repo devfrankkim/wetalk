@@ -43,16 +43,6 @@
   transition: all 0.4s ease-in-out;
 }
 
-.chat__write:focus {
-  outline: none;
-  transform: translateY(-40px);
-  width: 80%;
-  border-radius: 40px;
-  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
-    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  animation: float 2s ease-in-out infinite;
-}
-
 @keyframes float {
   0% {
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
@@ -71,6 +61,15 @@
   }
 }
 
+.chat__write:focus {
+  outline: none;
+  transform: translateY(-40px);
+  width: 80%;
+  border-radius: 40px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  animation: float 0.5s ease-in-out infinite;
+}
 .chat__write:focus ~ .chat__icon {
   opacity: 0;
 }
@@ -88,13 +87,73 @@
   position: absolute;
   right: 20px;
 }
+.message {
+  display: flex;
+  align-items: center;
+}
 
+.message .message__content {
+  width: 90%;
+}
+
+.message__bubble {
+  color: white;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  padding: 10px;
+  width: 100%;
+}
+.message__author {
+  display: block;
+  line-height: 2rem;
+}
 .message-title {
   font-size: 1.2rem;
   font-weight: 700;
   margin-left: 3rem;
 }
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(2turn);
+  }
+}
+.incoming-message img {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  animation: spin 2s linear infinite;
+}
 
+.incoming-message {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
+
+.incoming-message .message__bubble {
+  border-top-left-radius: 0px;
+  background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+}
+
+.sent-message .message__bubble {
+  border-top-right-radius: 0px;
+  background-image: linear-gradient(to right, #e52d27, #b31217);
+}
+
+.sent-message .answer {
+  margin-top: 1rem;
+  background-color: rgb(247, 254, 239);
+}
+
+.sent-message {
+  margin-left: auto;
+}
 @keyframes incomingAnimation {
   from {
     opacity: 0;
@@ -121,4 +180,8 @@
 }
 .sent-message {
   animation: sentAnimation 0.5s ease-in-out forwards;
+}
+
+.count-icon .fa-comment-dots {
+  font-size: 1.4rem;
 }
