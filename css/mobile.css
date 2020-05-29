@@ -15,7 +15,7 @@
   align-items: center;
   line-height: 1.5;
   display: none;
-  z-index: 10;
+  z-index: 30;
 }
 .lockScreen__status-bar {
   color: black;
@@ -32,8 +32,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
+  padding-top: 5px;
+  font-size: 1.5rem;
   background-color: red;
   color: red;
 }
@@ -43,8 +45,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
+  padding-top: 5px;
+  font-size: 1.5rem;
   background-color: orange;
   color: orange;
 }
@@ -53,8 +57,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
+  padding-top: 5px;
+  font-size: 1.5rem;
   background-color: rgb(154, 253, 87);
   color: rgb(154, 253, 87);
 }
@@ -84,18 +90,22 @@
 }
 
 .lock__email {
-  font-size: 1.5rem;
+  font-size: 1.5vmax;
 }
 .lockScreen__text {
+  text-align: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: 400;
 }
 .lockScreen footer {
-  position: absolute;
-  bottom: 10%;
+  background-color: #2c3e50;
+  position: fixed;
+  bottom: 0;
   cursor: pointer;
+  width: 100%;
+  text-align: center;
 }
 
 .hint-btn {
@@ -117,7 +127,8 @@
   border-bottom: 1px solid white;
 }
 .hint-btn:hover {
-  background-color: #796baa;
+  background-color: #bdc3c7;
+  font-weight: bold;
   color: white;
   transition: all 0.3s;
 }
