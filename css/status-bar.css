@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 .status-bar {
+  top: 0;
   background-color: #fffefe;
   width: 100%;
   display: flex;
