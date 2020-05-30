@@ -39,6 +39,14 @@ a {
   font-size: 1.4rem;
 }
 
+.youtube-plus-friends {
+  color: red;
+  font-size: 2.6rem;
+  height: 3.3rem;
+  margin-right: 1rem;
+  opacity: 0.9;
+}
+
 .fa-lock-open:before {
   color: white;
   animation: 4.5s fa-lock-open ease-in-out;
