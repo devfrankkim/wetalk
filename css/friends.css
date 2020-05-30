@@ -4,7 +4,7 @@
 }
 .friends .friends__plus {
   margin: 2rem 0;
-  padding: 20px 0px;
+  padding-top: 20px;
   border-top: 1px solid #f5f1f1;
   border-bottom: 1px solid #f5f1f1;
 }
