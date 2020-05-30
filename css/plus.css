@@ -1,0 +1,28 @@
+.header-plus {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.header-plus__title {
+  margin: auto;
+}
+.header-plus span {
+  opacity: 0.6;
+  font-size: bold;
+}
+
+.header-plus-arrow {
+  left: 0;
+}
+
+.header-plus-main h2 {
+  opacity: 0.8;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.header-plus-main h2 span {
+  opacity: 0.6;
+  font-weight: 500;
+}
