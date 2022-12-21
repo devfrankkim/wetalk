@@ -23,7 +23,7 @@
         </div>
         <div class="status-bar__column">
           <i class="fas fa-lock-open"></i>
-          <span class="status-bar__clock">13:53</span>
+          <span class="status-bar__clock" id="clock-js">13:53</span>
         </div>
         <div class="status-bar__column">
           <i class="far fa-clock"></i>
@@ -54,13 +54,11 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend ">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="img/myself.jpeg" alt="" class="friend__avatar g-avatar" />
             <div class="friend__content">
-              <span class="friend__name">
-                Frank Kim
-              </span>
+              <span class="friend__name"> Frank Kim </span>
               <span class="friend__status">We are connected</span>
             </div>
           </div>
@@ -73,9 +71,7 @@
             <div class="friend__column">
               <i class="fab fa-youtube youtube-plus-friends"></i>
               <div class="friend__content">
-                <span class="friend__name">
-                  Plus Friends
-                </span>
+                <span class="friend__name"> Plus Friends </span>
               </div>
             </div>
           </div>
@@ -86,15 +82,9 @@
       <ul class="friends__list">
         <li class="friends__friend friend friend--large">
           <div class="friend__column">
-            <img
-              src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/43198577_10102585938765989_2589958381494075392_o.jpg?_nc_cat=101&_nc_sid=e007fa&_nc_ohc=FJMfTia4E9EAX_dBxQ5&_nc_ht=scontent-yyz1-1.xx&oh=6b829ec546136da15a0f336905d866c8&oe=5EF71873"
-              alt=""
-              class="friend__avatar"
-            />
+            <img src="./img/planner.png" alt="" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">
-                Leader
-              </span>
+              <span class="friend__name"> Leader </span>
               <span class="friend__status"
                 >Whatever happens, take responsibility</span
               >
@@ -103,7 +93,7 @@
           <div class="friend__column youtube-channel">
             <a href="https://github.com/heyfranksmile">
               <div class="friend__now-listening">
-                <i class="fab fa-youtube "></i>
+                <i class="fab fa-youtube"></i>
                 <span>Leader's channel</span>
               </div></a
             >
@@ -111,23 +101,17 @@
         </li>
         <li class="friends__friend friend friend--large">
           <div class="friend__column">
-            <img
-              src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/45449520_1960695660681518_6324880461994655744_o.jpg?_nc_cat=101&_nc_sid=8024bb&_nc_ohc=HZCXiPUpkI0AX8dAVkK&_nc_ht=scontent-yyz1-1.xx&oh=106ff3c64bb20a0c1449b6afed37c6b6&oe=5EF80888"
-              alt=""
-              class="friend__avatar"
-            />
+            <img src="./img/fk1.png" alt="" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">
-                Andrea Lynn
-              </span>
+              <span class="friend__name"> Andrea </span>
               <span class="friend__status">Smile! It's free! isn't it?</span>
             </div>
           </div>
           <div class="friend__column youtube-channel">
             <a href="https://www.instagram.com/koreashowme/?hl=en">
               <div class="friend__now-listening">
-                <i class="fab fa-youtube "></i>
-                <span>Andrea Lynn's channel</span>
+                <i class="fab fa-youtube"></i>
+                <span>Andrea's channel</span>
               </div></a
             >
           </div>
@@ -140,9 +124,7 @@
               class="friend__avatar"
             />
             <div class="friend__content">
-              <span class="friend__name">
-                Team manager
-              </span>
+              <span class="friend__name"> Team manager </span>
               <span class="friend__status">Working together is success</span>
             </div>
           </div>
@@ -151,7 +133,7 @@
               href="https://twitter.com/LeeCockerell?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
             >
               <div class="friend__now-listening">
-                <i class="fab fa-youtube "></i>
+                <i class="fab fa-youtube"></i>
                 <span>Team manager's channel</span>
               </div></a
             >
@@ -165,9 +147,7 @@
               class="friend__avatar"
             />
             <div class="friend__content">
-              <span class="friend__name">
-                Code mentoring
-              </span>
+              <span class="friend__name"> Code mentoring </span>
               <span class="friend__status"
                 >Built by the people, for the people</span
               >
@@ -176,7 +156,7 @@
           <div class="friend__column youtube-channel">
             <a href="https://github.com/code-mentoring">
               <div class="friend__now-listening">
-                <i class="fab fa-youtube "></i>
+                <i class="fab fa-youtube"></i>
                 <span>Code mentoring's channel</span>
               </div></a
             >
@@ -218,7 +198,7 @@
       </div>
       <main class="lockScreen__img">
         <img src="img/myself.jpeg" alt="" class="lock__img" />
-        <div class="lock__email">heyfranksmile@gmail.com</div>
+        <div class="lock__email">dev.frank.kim@gmail.com</div>
         <span class="lockScreen__text">Your Wetalk is currently locked.</span>
         <input type="text" placeholder="Password" />
         <button class="hint-btn">hint</button>
@@ -230,5 +210,6 @@
         <div>Switch Accounts</div>
       </footer>
     </div>
+    <script src="./clock.js"></script>
   </body>
 </html>
